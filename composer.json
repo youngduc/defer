@@ -1,0 +1,26 @@
+{
+    "name": "youngduc/defer",
+    "authors": [
+        {
+            "name": "神符",
+            "email": "1025434218@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Youngduc\\Defer\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Youngduc\\Defer\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
